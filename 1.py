@@ -18,6 +18,7 @@ cartoons = soup.find_all("div", attrs={"class": "rating_type"})
 total_rates = 0
 for cartoon in cartoons:
     rate = cartoon.find("strong").get_text()
+    print(rate)
     total_rates += float(rate)
 
 print(total_rates / len(cartoons))
