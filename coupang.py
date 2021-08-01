@@ -43,7 +43,7 @@ def extract_items(items):
 
 
 for i in range(1, 6):
-    print("///////////현재 페이지", i)
+    print("///////////현재 페이지", i, "/////////////////")
     url = "https://www.coupang.com/np/search?component=&q=%EB%85%B8%ED%8A%B8%EB%B6%81&channel=user&page={}".format(
         i)
     headers = {
