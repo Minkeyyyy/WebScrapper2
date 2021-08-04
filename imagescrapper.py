@@ -16,4 +16,4 @@ images = soup.find("div", attrs={"class", "card_area _panel"}).find_all(
 for image in images:
     image_url = image.find("img")
     if image_url:
-        print(image_url["src"])
+        print(image_url["src"]) 
